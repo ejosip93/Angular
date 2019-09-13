@@ -13,13 +13,17 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { CourseDetailsComponent } from './course-details/course-details.component';
 import {ReactiveFormsModule} from '@angular/forms';
+import { WalletComponent } from './wallet/wallet.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CourseComponent,
     MainNavComponent,
-    CourseDetailsComponent
+    CourseDetailsComponent,
+    WalletComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

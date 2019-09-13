@@ -1,6 +1,5 @@
-<div class="p-5">
-<h2>Courses</h2>
-<ul>
-  <li *ngFor = "let course of courses; index as courseId"><a [routerLink]="['courses', courseId]">{{course.name}}</a></li>
-</ul>
+<div class="list-group p-5">
+  <a class="list-group-item list-group-item-action" *ngFor = "let course of courses; index as courseId" [routerLink]="['courses', courseId]">{{course.name}}</a>
 </div>
+
+
