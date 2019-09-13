@@ -1,0 +1,14 @@
+<div>
+  <div *ngFor="let item of items" class="card">
+    <div class="card-header">
+      <a [routerLink]="">
+        {{item.name}}
+      </a>
+    </div>
+    <div>
+      <div class="card-body">
+        {{item.description}}
+      </div>
+    </div>
+  </div>
+</div>
