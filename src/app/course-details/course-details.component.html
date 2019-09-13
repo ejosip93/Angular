@@ -1,0 +1,31 @@
+<mat-card class="no-gutters">
+  <mat-card-header>
+    <h3>{{course.name}}</h3>
+  </mat-card-header>
+  <mat-divider></mat-divider>
+  <mat-card-content class="pt-3">
+    <div class="row align-items-center">
+      <div class="col-sm-8">
+        <div class="row">
+          <div class="col-sm-2">
+           <b>Price:</b>
+          </div>
+          <div class="col">
+            <a>{{course.price}}</a>
+          </div>
+        </div>
+        <div class="row pt-2">
+          <div class="col-sm-2">
+            <b>Description:</b>
+          </div>
+          <div class="col">
+            <a>{{course.description}}</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 text-center">
+        <button class="btn btn-primary px-4">Buy</button>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>
