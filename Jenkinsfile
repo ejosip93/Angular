@@ -2,7 +2,7 @@ node {
   stage('checkout'){
     checkout scm
   }
-  stage('angular'){
-   bat 'npm install'
+  stage('test'){
+   bat 'npm test'
   }
 }
