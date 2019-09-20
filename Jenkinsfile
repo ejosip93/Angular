@@ -1,5 +1,8 @@
 node {
-    stage('test') {
-        sh 'npm test'
-    }
+  stage('checkout'){
+    checkout scm
+  }
+  stage('test') {
+    sh 'npm test'
+  }
 }
