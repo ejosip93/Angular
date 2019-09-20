@@ -3,6 +3,6 @@ node {
     checkout scm
   }
   stage('angular'){
-   sh 'npm install'
+   bat 'npm install'
   }
 }
